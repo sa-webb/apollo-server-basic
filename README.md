@@ -8,9 +8,9 @@ Resolvers - tell Apollo Server how to fetch the data associated with a particula
 3. Navigate to <http://localhost:4000>
 4. Paste this query into GraphQL Playground to view the data.
 
-query GetBooks {
-  books {
-    title
-    author
-  }
+query GetBooks { \\
+  books { \\
+    title \\
+    author \\
+  } \\
 }
